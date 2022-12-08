@@ -22,7 +22,7 @@ Make a directory called `phase_chrs` in the directory with your `populations` ou
 
 ### Step 3 Calculate LD
 
-Create another new directory for your LD calculations for your new working directory. Next you take your phased `vcf` outputs and run them in the script [calculate_ld.sh](calculate_ld.sh), adding the path to your new working directory. You'll have to run the script separately on each input `vcf` file. Note that I have a minimum r squared value for the calculation to keep but this is not necessary. I added this is save on computing time for loci with very low r squared values. This script should give you an output file labeled `spp1.hap_ld.minr2.tsv.gz` which has the data you need for graphing in `R`. 
+Create another new directory for your LD calculations for your new working directory. Next you take your phased `vcf` outputs and run them in the script [calculate_vcftools_ld.sh](calculate_vcftools_ld.sh), adding the path to your new working directory. You'll have to run the script separately on each input `vcf` file. Note that I have a minimum r squared value for the calculation to keep but this is not necessary. I added this is save on computing time for loci with very low r squared values. This script should give you an output file labeled `spp1.hap_ld.minr2.tsv.gz` which has the data you need for graphing in `R`. 
 
 ### Step 4 Graph LD plots in R
 
