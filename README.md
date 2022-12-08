@@ -7,7 +7,7 @@ This document provides notes and instructions on running an LD analysis using RA
 raw RAD reads (fastq file) -> see [RADseq_pipeline](https://github.com/kiralong/RADseq_pipeline) -> vcf output with ordered export -> phase chromosomes -> calculate LD -> Graph in ggplot
 
 ## Required Software and Installation
-To run this analysis you will need [stacks](https://catchenlab.life.illinois.edu/stacks/), [bcftools](https://samtools.github.io/bcftools/), `vcftools`, `gcc`, `java`, `Beagle`, and `R`. 
+To run this analysis you will need [stacks](https://catchenlab.life.illinois.edu/stacks/)(version 2.6.2), [bcftools](https://samtools.github.io/bcftools/)(version 1.16), [vcftools](https://vcftools.sourceforge.net/), `gcc`(version 7.2.0), `java`(1.8), `Beagle`(version 5.4), and `R`(4.2.1). 
 
 ## Pipeline Steps
 
